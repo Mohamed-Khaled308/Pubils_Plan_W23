@@ -6,7 +6,7 @@ public class Exrema {
 		Scanner sc = new Scanner(System.in);
 		PrintWriter pw = new PrintWriter(System.out);
 
-		int num1 = sc.nextInt(), num2 = sc.nextInt(), num3 = sc.nextInt();
+		long num1 = sc.nextLong(), num2 = sc.nextLong(), num3 = sc.nextLong();
 
 		pw.println(Math.min(num1, Math.min(num2, num3))); // Math.min(a,b) return the minimum of 2 numbers
 		pw.println(Math.max(num1, Math.max(num2, num3))); // Math.max(a,b) return the maximum of 2 numbers
